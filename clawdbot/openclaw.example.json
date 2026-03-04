@@ -1,0 +1,181 @@
+{
+  "models": {
+    "mode": "merge",
+    "providers": {
+
+      "ollama": {
+        "baseUrl": "http://localhost:11434",
+        "apiKey": "ollama",
+        "api": "ollama",
+        "models": [
+          {
+            "id": "llama3.2-vision:latest",
+            "name": "LLaMA 3",
+            "reasoning": true,
+            "input": ["text"]
+          },
+          {
+            "id": "qwen2.5-coder:latest",
+            "name": "qwen2.5 coder",
+            "reasoning": true,
+            "input": ["text"]
+          }
+        ]
+      },
+
+      "anyrouter": {
+        "baseUrl": "https://anyrouter.top",
+        "apiKey": "YOUR_ANYROUTER_KEY",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "reasoning": true,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+
+      "siliconflow": {
+        "baseUrl": "https://api.siliconflow.cn/v1",
+        "apiKey": "YOUR_SILICONFLOW_KEY",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "Pro/deepseek-ai/DeepSeek-V3.2",
+            "name": "DeepSeek",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+
+      "bailian": {
+        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "apiKey": "YOUR_DASHSCOPE_KEY",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3.5-plus",
+            "name": "qwen3-max-thinking",
+            "reasoning": false,
+            "input": ["text"],
+            "contextWindow": 262144,
+            "maxTokens": 65536
+          }
+        ]
+      }
+    }
+  },
+
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "siliconflow/Pro/deepseek-ai/DeepSeek-V3.2",
+        "fallbacks": ["ollama/llama3.2-vision:latest", "ollama/qwen2.5-coder:latest"]
+      },
+      "workspace": "/home/username/.openclaw/workspace",
+      "compaction": { "mode": "safeguard" },
+      "maxConcurrent": 4,
+      "subagents": { "maxConcurrent": 8 }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "work",
+        "name": "work",
+        "workspace": "/home/username/.openclaw/workspace-work",
+        "agentDir": "/home/username/.openclaw/agents/work/agent",
+        "identity": {
+          "name": "工作助手",
+          "emoji": "💼"
+        }
+      }
+    ]
+  },
+
+  "tools": {
+    "profile": "messaging",
+    "allow": ["discord", "exec", "fs"],
+    "exec": {},
+    "fs": {}
+  },
+
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": { "enabled": true },
+        "session-memory": { "enabled": true, "messages": 20 },
+        "command-logger": { "enabled": true }
+      }
+    }
+  },
+
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "token": "YOUR_DISCORD_BOT_TOKEN",
+      "groupPolicy": "open",
+      "streaming": "off",
+      "dmPolicy": "open",
+      "allowFrom": ["*"],
+      "guilds": {}
+    }
+  },
+
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "YOUR_GATEWAY_AUTH_TOKEN"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+
+  "plugins": {
+    "entries": {
+      "discord": { "enabled": true }
+    }
+  }
+}
