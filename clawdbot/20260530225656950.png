@@ -1,0 +1,12 @@
+
+⏺ Bash(python3 /Users/costalong/.claude/plugins/cache/article-craft/article
+      -craft/1.8.1/scripts/screenshot_tool.py scan \
+        "/Users/costalong/Library/CloudStorage/OneD…)
+  ⎿  Error: Exit code 2
+     usage: screenshot_tool.py [-h]
+                               
+     {screenshot,batch,check,harvest,rehost,harvest-menu,expand-harvest} 
+     ...
+     screenshot_tool.py: error: argument command: invalid choice: 'scan' 
+     (choose from screenshot, batch, check, harvest, rehost, harvest-menu, 
+     expand-harvest)
