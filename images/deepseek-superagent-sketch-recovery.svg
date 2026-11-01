@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1280" viewBox="0 0 640 1280" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<title id="title">修复好了，通知没到？</title><desc id="desc">假设案例的逻辑时序 · 任务进展与通知状态分开记录</desc>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".7" fill="#e6e1d7"/></pattern>
+
+<marker id="arrow-ink" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#25364b" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-blue" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#397bbb" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#2d8268" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-amber" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#b4792a" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs><style>
+text { font-family: "Kaiti SC", "STKaiti", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #25364b; }
+path, rect, line { vector-effect: non-scaling-stroke; }
+</style>
+<rect width="640" height="1280" rx="24" fill="#fffdf7"/>
+<rect x="16" y="16" width="608" height="1248" rx="18" fill="url(#dots)" opacity=".5"/>
+<text x="34" y="44" text-anchor="start" font-size="15" font-weight="400" style="fill:#397bbb">
+<tspan x="34" dy="0">03 / DEEPSEEK SUPER-AGENT</tspan>
+</text>
+<text x="34" y="87" text-anchor="start" font-size="30" font-weight="600" style="fill:#25364b">
+<tspan x="34" dy="0">修复好了，通知没到？</tspan>
+</text>
+<path d="M 35 104 Q 129.42 103.92 225 105" fill="none" stroke="#397bbb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+<text x="320" y="1254" text-anchor="middle" font-size="17" font-weight="400" style="fill:#626e78">
+<tspan x="320" dy="0">假设案例的逻辑时序 · 任务进展与通知状态分开记录</tspan>
+</text>
+<path d="M 110 245 Q 110.10 672.60 110 1100" fill="none" stroke="#a7b1b9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="7 7"/>
+<path d="M 320 245 Q 319.71 672.21 320 1100" fill="none" stroke="#a7b1b9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="7 7"/>
+<path d="M 530 245 Q 530.23 672.73 530 1100" fill="none" stroke="#a7b1b9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="7 7"/>
+<rect x="33" y="150" width="160" height="90" rx="13" fill="#2d8268" opacity=".09"/>
+<rect x="30" y="145" width="160" height="90" rx="13" fill="#eaf6ed"/>
+<path d="M 42 145 Q 110.28 145.28 178 145 Q 183.04 150.04 190 157 Q 188.93 188.93 190 223 Q 184.74 229.74 178 235 Q 109.47 234.47 42 235 Q 35.42 228.42 30 223 Q 31.09 191.09 30 157 Q 35.93 150.93 42 145" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 45 148 Q 109.74 148.24 173 147" fill="none" stroke="#2d8268" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="110.0" y="198.84" text-anchor="middle" font-size="26" font-weight="500" style="fill:#25364b">
+<tspan x="110.0" dy="0">Worker</tspan>
+</text>
+<rect x="243" y="150" width="160" height="90" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="240" y="145" width="160" height="90" rx="13" fill="#e9f3ff"/>
+<path d="M 252 145 Q 319.95 144.95 388 145 Q 394.31 151.31 400 157 Q 399.23 189.23 400 223 Q 394.30 229.30 388 235 Q 320.81 235.81 252 235 Q 246.05 229.05 240 223 Q 240.53 190.53 240 157 Q 246.38 151.38 252 145" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 255 148 Q 318.04 146.54 383 147" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="181.625" text-anchor="middle" font-size="25" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">任务与</tspan>
+<tspan x="320.0" dy="33.75">通知管理</tspan>
+</text>
+<rect x="453" y="150" width="160" height="90" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="450" y="145" width="160" height="90" rx="13" fill="#e9f3ff"/>
+<path d="M 462 145 Q 530.57 145.57 598 145 Q 604.20 151.20 610 157 Q 609.56 189.56 610 223 Q 602.97 227.97 598 235 Q 530.80 235.80 462 235 Q 455.94 228.94 450 223 Q 450.48 190.48 450 157 Q 456.83 151.83 462 145" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 465 148 Q 529.47 147.97 593 147" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="530.0" y="198.5" text-anchor="middle" font-size="25" font-weight="500" style="fill:#25364b">
+<tspan x="530.0" dy="0">协作平台</tspan>
+</text>
+<path d="M 110 305 Q 320.93 305.93 530 305" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-green)"/>
+<text x="320.0" y="291" text-anchor="middle" font-size="23" font-weight="400" style="fill:#2d8268">
+<tspan x="320.0" dy="0">创建修复 PR</tspan>
+</text>
+<path d="M 530 385 Q 319.77 384.77 110 385" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-blue)" stroke-dasharray="7 7"/>
+<text x="320.0" y="371" text-anchor="middle" font-size="23" font-weight="400" style="fill:#397bbb">
+<tspan x="320.0" dy="0">返回 PR 信息</tspan>
+</text>
+<path d="M 110 465 Q 215.66 465.66 320 465" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-green)"/>
+<text x="215.0" y="451" text-anchor="middle" font-size="23" font-weight="400" style="fill:#2d8268">
+<tspan x="215.0" dy="0">报告可评审结果</tspan>
+</text>
+<rect x="203" y="505" width="240" height="85" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="200" y="500" width="240" height="85" rx="13" fill="#e9f3ff"/>
+<path d="M 212 500 Q 319.88 499.88 428 500 Q 434.96 506.96 440 512 Q 440.83 543.33 440 573 Q 433.11 578.11 428 585 Q 319.20 584.20 212 585 Q 205.38 578.38 200 573 Q 201.02 543.52 200 512 Q 205.86 505.86 212 500" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 215 503 Q 319.28 502.78 423 502" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="534.4599999999999" text-anchor="middle" font-size="24" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">保存任务进展</tspan>
+<tspan x="320.0" dy="32.400000000000006">与待发通知</tspan>
+</text>
+<path d="M 320 650 Q 424.56 649.56 530 650" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-blue)"/>
+<text x="425.0" y="636" text-anchor="middle" font-size="23" font-weight="400" style="fill:#397bbb">
+<tspan x="425.0" dy="0">发送结果通知</tspan>
+</text>
+<rect x="48" y="697" width="550" height="75" rx="13" fill="#b4792a" opacity=".09"/>
+<rect x="45" y="692" width="550" height="75" rx="13" fill="#fff1ce"/>
+<path d="M 57 692 Q 320.02 692.02 583 692 Q 588.75 697.75 595 704 Q 594.67 729.17 595 755 Q 589.19 761.19 583 767 Q 320.19 767.19 57 767 Q 51.89 761.89 45 755 Q 45.40 729.90 45 704 Q 51.94 698.94 57 692" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 60 695 Q 319.78 695.28 578 694" fill="none" stroke="#b4792a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="738.34" text-anchor="middle" font-size="26" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">请求超时：送达情况未确认</tspan>
+</text>
+<rect x="203" y="800" width="240" height="85" rx="13" fill="#2d8268" opacity=".09"/>
+<rect x="200" y="795" width="240" height="85" rx="13" fill="#eaf6ed"/>
+<path d="M 212 795 Q 321.08 796.08 428 795 Q 434.38 801.38 440 807 Q 439.26 836.76 440 868 Q 434.79 874.79 428 880 Q 321.02 881.02 212 880 Q 206.89 874.89 200 868 Q 200.15 837.65 200 807 Q 206.47 801.47 212 795" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 215 798 Q 318.36 796.86 423 797" fill="none" stroke="#2d8268" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="829.4599999999999" text-anchor="middle" font-size="24" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">修复结果保留</tspan>
+<tspan x="320.0" dy="32.400000000000006">通知仍待处理</tspan>
+</text>
+<path d="M 320 970 Q 425.73 970.73 530 970" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-amber)"/>
+<text x="425.0" y="956" text-anchor="middle" font-size="23" font-weight="400" style="fill:#b4792a">
+<tspan x="425.0" dy="0">等待后重试通知</tspan>
+</text>
+<path d="M 530 1050 Q 425.16 1050.16 320 1050" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-blue)" stroke-dasharray="7 7"/>
+<text x="425.0" y="1036" text-anchor="middle" font-size="23" font-weight="400" style="fill:#397bbb">
+<tspan x="425.0" dy="0">返回发送结果</tspan>
+</text>
+<rect x="48" y="1125" width="550" height="100" rx="13" fill="#b4792a" opacity=".09"/>
+<rect x="45" y="1120" width="550" height="100" rx="13" fill="#fff1ce"/>
+<path d="M 57 1120 Q 319.53 1119.53 583 1120 Q 588.04 1125.04 595 1132 Q 595.78 1170.78 595 1208 Q 590.08 1215.08 583 1220 Q 319.09 1219.09 57 1220 Q 51.66 1214.66 45 1208 Q 44.80 1169.80 45 1132 Q 50.23 1125.23 57 1120" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 60 1123 Q 318.55 1122.05 578 1122" fill="none" stroke="#b4792a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="1161.96" text-anchor="middle" font-size="24" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">核对远端结果与本地记录</tspan>
+<tspan x="320.0" dy="32.400000000000006">重试不能保证外部动作只发生一次</tspan>
+</text>
+</svg>
