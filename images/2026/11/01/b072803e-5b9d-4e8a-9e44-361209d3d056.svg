@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1280" viewBox="0 0 640 1280" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<title id="title">新消息，交给谁？</title><desc id="desc">订阅投递不等于新增授权 · 省略停止与恢复细节</desc>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".7" fill="#e6e1d7"/></pattern>
+
+<marker id="arrow-ink" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#25364b" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-blue" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#397bbb" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#2d8268" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-amber" viewBox="0 0 12 12" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto-start-reverse"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#b4792a" stroke-width="1.8" style="vector-effect:none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs><style>
+text { font-family: "Kaiti SC", "STKaiti", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #25364b; }
+path, rect, line { vector-effect: non-scaling-stroke; }
+</style>
+<rect width="640" height="1280" rx="24" fill="#fffdf7"/>
+<rect x="16" y="16" width="608" height="1248" rx="18" fill="url(#dots)" opacity=".5"/>
+<text x="34" y="44" text-anchor="start" font-size="15" font-weight="400" style="fill:#397bbb">
+<tspan x="34" dy="0">02 / DEEPSEEK SUPER-AGENT</tspan>
+</text>
+<text x="34" y="87" text-anchor="start" font-size="30" font-weight="600" style="fill:#25364b">
+<tspan x="34" dy="0">新消息，交给谁？</tspan>
+</text>
+<path d="M 35 104 Q 131.00 105.50 225 105" fill="none" stroke="#397bbb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+<text x="320" y="1254" text-anchor="middle" font-size="17" font-weight="400" style="fill:#626e78">
+<tspan x="320" dy="0">订阅投递不等于新增授权 · 省略停止与恢复细节</tspan>
+</text>
+<path d="M 320 220 Q 320.99 245.99 320 270" fill="none" stroke="#25364b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-ink)"/>
+<path d="M 320 365 Q 319.02 386.52 320 410" fill="none" stroke="#25364b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-ink)"/>
+<path d="M320 410 L550 490 L320 570 L90 490 Z" fill="#fff1ce"/>
+<path d="M 320 410 Q 434.09 449.09 550 490 Q 435.74 530.74 320 570 Q 205.52 530.52 90 490 Q 205.37 450.37 320 410" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="320" y="479" text-anchor="middle" font-size="27" font-weight="400" style="fill:#25364b">
+<tspan x="320" dy="0">这条人类后续消息</tspan>
+<tspan x="320" dy="36.45">已有执行器负责？</tspan>
+</text>
+<path d="M 320 570 Q 319.58 579.58 320 590 Q 246.23 590.23 172 590 Q 172.23 615.23 172 640" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-green)"/>
+<text x="220" y="624" text-anchor="middle" font-size="24" font-weight="400" style="fill:#2d8268">
+<tspan x="220" dy="0">是</tspan>
+</text>
+<path d="M 550 490 Q 580.18 490.18 610 490 Q 609.25 716.75 610 945 Q 599.85 944.85 590 945" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-amber)"/>
+<text x="585" y="544" text-anchor="middle" font-size="24" font-weight="400" style="fill:#b4792a">
+<tspan x="585" dy="0">否</tspan>
+</text>
+<path d="M 305 700 Q 317.27 699.77 330 700 Q 330.49 806.99 330 913 Q 341.09 914.09 350 913" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-green)"/>
+<text x="174" y="818" text-anchor="middle" font-size="20" font-weight="400" style="fill:#2d8268">
+<tspan x="174" dy="0">超出范围交回，且</tspan>
+<tspan x="174" dy="27.0">无其他执行器负责</tspan>
+</text>
+<path d="M 470 995 Q 470.99 1048.49 470 1100" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-blue)"/>
+<text x="510" y="1057" text-anchor="middle" font-size="23" font-weight="400" style="fill:#397bbb">
+<tspan x="510" dy="0">接受</tspan>
+</text>
+<path d="M 350 968 Q 337.60 968.10 325 968 Q 324.88 1058.88 325 1150 Q 311.99 1149.49 300 1150" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1" marker-end="url(#arrow-amber)"/>
+<text x="165" y="1047" text-anchor="middle" font-size="23" font-weight="400" style="fill:#b4792a">
+<tspan x="165" dy="0">其他结果</tspan>
+</text>
+<rect x="73" y="145" width="500" height="80" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="70" y="140" width="500" height="80" rx="13" fill="#e9f3ff"/>
+<path d="M 82 140 Q 318.98 138.98 558 140 Q 562.96 144.96 570 152 Q 569.92 179.92 570 208 Q 563.60 213.60 558 220 Q 319.74 219.74 82 220 Q 76.86 214.86 70 208 Q 70.06 180.06 70 152 Q 76.13 146.13 82 140" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 85 143 Q 318.42 141.92 553 142" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="189.52" text-anchor="middle" font-size="28" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">来源接入，过滤事件</tspan>
+</text>
+<rect x="73" y="275" width="500" height="95" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="70" y="270" width="500" height="95" rx="13" fill="#e9f3ff"/>
+<path d="M 82 270 Q 318.95 268.95 558 270 Q 563.62 275.62 570 282 Q 569.20 316.70 570 353 Q 564.02 359.02 558 365 Q 321.10 366.10 82 365 Q 76.38 359.38 70 353 Q 69.30 316.80 70 282 Q 76.87 276.87 82 270" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 85 273 Q 319.65 273.15 553 272" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="320.0" y="308.78999999999996" text-anchor="middle" font-size="26" font-weight="500" style="fill:#25364b">
+<tspan x="320.0" dy="0">保存事件</tspan>
+<tspan x="320.0" dy="35.1">投递到符合条件的订阅任务</tspan>
+</text>
+<rect x="43" y="645" width="265" height="120" rx="13" fill="#2d8268" opacity=".09"/>
+<rect x="40" y="640" width="265" height="120" rx="13" fill="#eaf6ed"/>
+<path d="M 52 640 Q 173.02 640.52 293 640 Q 299.89 646.89 305 652 Q 305.58 700.58 305 748 Q 299.64 754.64 293 760 Q 172.18 759.68 52 760 Q 47.06 755.06 40 748 Q 41.02 701.02 40 652 Q 45.25 645.25 52 640" fill="none" stroke="#2d8268" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 55 643 Q 172.06 643.06 288 642" fill="none" stroke="#2d8268" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="172.5" y="690.9549999999999" text-anchor="middle" font-size="27" font-weight="500" style="fill:#25364b">
+<tspan x="172.5" dy="0">执行器判断</tspan>
+<tspan x="172.5" dy="36.45">范围内继续处理</tspan>
+</text>
+<rect x="368" y="645" width="225" height="135" rx="13" fill="#b4792a" opacity=".09"/>
+<rect x="365" y="640" width="225" height="135" rx="13" fill="#fff1ce"/>
+<path d="M 377 640 Q 477.97 640.47 578 640 Q 583.92 645.92 590 652 Q 590.07 707.57 590 763 Q 583.98 768.98 578 775 Q 478.43 775.93 377 775 Q 371.00 769.00 365 763 Q 365.73 708.23 365 652 Q 370.68 645.68 377 640" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 380 643 Q 477.34 643.34 573 642" fill="none" stroke="#b4792a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="477.5" y="699.125" text-anchor="middle" font-size="25" font-weight="500" style="fill:#25364b">
+<tspan x="477.5" dy="0">机器人事件</tspan>
+<tspan x="477.5" dy="33.75">仍可进入评估</tspan>
+</text>
+<rect x="353" y="890" width="240" height="110" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="350" y="885" width="240" height="110" rx="13" fill="#e9f3ff"/>
+<path d="M 362 885 Q 470.88 885.88 578 885 Q 583.91 890.91 590 897 Q 590.15 940.15 590 983 Q 584.92 989.92 578 995 Q 470.49 995.49 362 995 Q 355.97 988.97 350 983 Q 349.39 939.39 350 897 Q 355.61 890.61 362 885" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 365 888 Q 469.44 887.94 573 887" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="470.0" y="935.84" text-anchor="middle" font-size="26" font-weight="500" style="fill:#25364b">
+<tspan x="470.0" dy="0">Eval 接单评估</tspan>
+</text>
+<text x="470.0" y="977" text-anchor="middle" font-size="21" font-weight="400" style="fill:#53616c">
+<tspan x="470.0" dy="0">先准入，再研判</tspan>
+</text>
+<rect x="353" y="1105" width="240" height="100" rx="13" fill="#397bbb" opacity=".09"/>
+<rect x="350" y="1100" width="240" height="100" rx="13" fill="#e9f3ff"/>
+<path d="M 362 1100 Q 469.27 1099.27 578 1100 Q 584.90 1106.90 590 1112 Q 589.49 1149.49 590 1188 Q 584.91 1194.91 578 1200 Q 469.58 1199.58 362 1200 Q 357.01 1195.01 350 1188 Q 350.45 1150.45 350 1112 Q 356.01 1106.01 362 1100" fill="none" stroke="#397bbb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 365 1103 Q 469.04 1102.54 573 1102" fill="none" stroke="#397bbb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="470.0" y="1141.625" text-anchor="middle" font-size="25" font-weight="500" style="fill:#25364b">
+<tspan x="470.0" dy="0">新建任务和授权</tspan>
+<tspan x="470.0" dy="33.75">安排执行</tspan>
+</text>
+<rect x="43" y="1105" width="260" height="100" rx="13" fill="#b4792a" opacity=".09"/>
+<rect x="40" y="1100" width="260" height="100" rx="13" fill="#fff1ce"/>
+<path d="M 52 1100 Q 170.33 1100.33 288 1100 Q 294.19 1106.19 300 1112 Q 299.59 1149.59 300 1188 Q 293.36 1193.36 288 1200 Q 170.03 1200.03 52 1200 Q 46.96 1194.96 40 1188 Q 40.27 1150.27 40 1112 Q 45.07 1105.07 52 1100" fill="none" stroke="#b4792a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M 55 1103 Q 169.70 1103.20 283 1102" fill="none" stroke="#b4792a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+<text x="170.0" y="1141.96" text-anchor="middle" font-size="24" font-weight="500" style="fill:#25364b">
+<tspan x="170.0" dy="0">停止 / 忽略</tspan>
+<tspan x="170.0" dy="32.400000000000006">或记录未完成判断</tspan>
+</text>
+</svg>
