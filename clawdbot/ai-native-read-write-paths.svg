@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" font-family="Noto Sans CJK SC, Noto Sans SC, PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8fa3bb"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#e5736b"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3fbfb0"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7aa7ff"/></marker>
+  </defs>
+  <rect width="800" height="640" fill="#0f1b2d"/>
+
+  <!-- 分栏 -->
+  <rect x="16" y="16" width="372" height="608" rx="14" fill="#13233a" stroke="#2a3f5c"/>
+  <rect x="404" y="16" width="380" height="608" rx="14" fill="#13233a" stroke="#2a3f5c"/>
+  <text x="202" y="48" text-anchor="middle" fill="#e6edf5" font-size="18" font-weight="700">AI-Enabled：AI 贴在外面</text>
+  <text x="594" y="48" text-anchor="middle" fill="#e6edf5" font-size="18" font-weight="700">AI-Native：AI 是系统的使用者</text>
+
+  <!-- 左栏 -->
+  <rect x="122" y="72" width="160" height="44" rx="10" fill="#3a2e14" stroke="#f5b041"/>
+  <text x="202" y="100" text-anchor="middle" fill="#f5b041" font-size="15" font-weight="700">AI 助手</text>
+  <line x1="202" y1="116" x2="202" y2="160" stroke="#8fa3bb" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="52" y="162" width="300" height="58" rx="10" fill="#1c2f4a" stroke="#3b5a7a"/>
+  <text x="202" y="186" text-anchor="middle" fill="#e6edf5" font-size="14">直接访问</text>
+  <text x="202" y="207" text-anchor="middle" fill="#b8c6d6" font-size="13">kubectl · 监控 · 数据库</text>
+  <line x1="92" y1="220" x2="92" y2="468" stroke="#e5736b" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="80" y="350" text-anchor="middle" fill="#e5736b" font-size="13" transform="rotate(-90 80 350)">直接执行命令</text>
+  <rect x="126" y="250" width="236" height="44" rx="10" fill="none" stroke="#e5736b" stroke-dasharray="5 4"/>
+  <text x="244" y="277" text-anchor="middle" fill="#f0a39c" font-size="13">护栏写在提示词里</text>
+  <rect x="126" y="312" width="236" height="44" rx="10" fill="none" stroke="#e5736b" stroke-dasharray="5 4"/>
+  <text x="244" y="339" text-anchor="middle" fill="#f0a39c" font-size="13">读到什么信什么</text>
+  <rect x="126" y="374" width="236" height="44" rx="10" fill="none" stroke="#e5736b" stroke-dasharray="5 4"/>
+  <text x="244" y="401" text-anchor="middle" fill="#f0a39c" font-size="13">权限凭感觉放开</text>
+  <rect x="52" y="470" width="300" height="44" rx="10" fill="#1c2f4a" stroke="#3b5a7a"/>
+  <text x="202" y="497" text-anchor="middle" fill="#e6edf5" font-size="15" font-weight="700">生产系统</text>
+  <text x="202" y="560" text-anchor="middle" fill="#8fa3bb" font-size="13">上手快，可靠性全押在模型身上</text>
+  <text x="202" y="582" text-anchor="middle" fill="#8fa3bb" font-size="13">换模型就要重调提示词和护栏</text>
+
+  <!-- 右栏 -->
+  <rect x="514" y="72" width="160" height="44" rx="10" fill="#3a2e14" stroke="#f5b041"/>
+  <text x="594" y="100" text-anchor="middle" fill="#f5b041" font-size="15" font-weight="700">AI Agent</text>
+  <text x="506" y="146" text-anchor="middle" fill="#3fbfb0" font-size="13" font-weight="700">读 ↑</text>
+  <text x="694" y="146" text-anchor="middle" fill="#7aa7ff" font-size="13" font-weight="700">写 ↓</text>
+
+  <!-- 读链：自下而上 -->
+  <line x1="506" y1="156" x2="560" y2="118" stroke="#3fbfb0" stroke-width="2" marker-end="url(#at)"/>
+  <rect x="420" y="158" width="172" height="58" rx="10" fill="#123433" stroke="#3fbfb0"/>
+  <text x="506" y="182" text-anchor="middle" fill="#e6edf5" font-size="13.5">只读工具 ≤ 15 个</text>
+  <text x="506" y="203" text-anchor="middle" fill="#a9d9d2" font-size="12">模板查询 · 日志脱敏限量</text>
+  <line x1="506" y1="262" x2="506" y2="218" stroke="#3fbfb0" stroke-width="2" marker-end="url(#at)"/>
+  <rect x="420" y="264" width="172" height="58" rx="10" fill="#123433" stroke="#3fbfb0"/>
+  <text x="506" y="288" text-anchor="middle" fill="#e6edf5" font-size="13.5">观测结果</text>
+  <text x="506" y="309" text-anchor="middle" fill="#a9d9d2" font-size="12">看状态变化，不看命令成功</text>
+  <line x1="506" y1="368" x2="506" y2="324" stroke="#3fbfb0" stroke-width="2" marker-end="url(#at)"/>
+  <rect x="420" y="370" width="172" height="58" rx="10" fill="#123433" stroke="#3fbfb0"/>
+  <text x="506" y="394" text-anchor="middle" fill="#e6edf5" font-size="13.5">单一真源</text>
+  <text x="506" y="415" text-anchor="middle" fill="#a9d9d2" font-size="12">每个事实只有一个出处</text>
+  <line x1="506" y1="468" x2="506" y2="430" stroke="#3fbfb0" stroke-width="2" marker-end="url(#at)"/>
+
+  <!-- 写链：自上而下 -->
+  <line x1="628" y1="118" x2="684" y2="156" stroke="#7aa7ff" stroke-width="2" marker-end="url(#ab)"/>
+  <rect x="604" y="158" width="168" height="44" rx="10" fill="#18264a" stroke="#7aa7ff"/>
+  <text x="688" y="185" text-anchor="middle" fill="#e6edf5" font-size="13.5">提交 PR 提案</text>
+  <line x1="688" y1="202" x2="688" y2="226" stroke="#7aa7ff" stroke-width="2" marker-end="url(#ab)"/>
+  <rect x="604" y="228" width="168" height="44" rx="10" fill="#18264a" stroke="#7aa7ff"/>
+  <text x="688" y="255" text-anchor="middle" fill="#e6edf5" font-size="13.5">自动检查（契约）</text>
+  <line x1="688" y1="272" x2="688" y2="296" stroke="#7aa7ff" stroke-width="2" marker-end="url(#ab)"/>
+  <rect x="604" y="298" width="168" height="44" rx="10" fill="#18264a" stroke="#7aa7ff"/>
+  <text x="688" y="325" text-anchor="middle" fill="#e6edf5" font-size="13.5">人工审批，能推翻</text>
+  <line x1="688" y1="342" x2="688" y2="366" stroke="#7aa7ff" stroke-width="2" marker-end="url(#ab)"/>
+  <rect x="604" y="368" width="168" height="44" rx="10" fill="#18264a" stroke="#7aa7ff"/>
+  <text x="688" y="395" text-anchor="middle" fill="#e6edf5" font-size="13.5">GitOps 同步</text>
+  <line x1="688" y1="412" x2="688" y2="468" stroke="#7aa7ff" stroke-width="2" marker-end="url(#ab)"/>
+
+  <rect x="420" y="470" width="352" height="44" rx="10" fill="#1c2f4a" stroke="#3b5a7a"/>
+  <text x="596" y="497" text-anchor="middle" fill="#e6edf5" font-size="15" font-weight="700">生产系统</text>
+
+  <rect x="420" y="526" width="352" height="38" rx="10" fill="none" stroke="#5d6b7d" stroke-dasharray="5 4"/>
+  <text x="596" y="550" text-anchor="middle" fill="#9aa8b8" font-size="12.5">exec · 任意 SQL · 关告警 · 合并 PR：接口里不存在</text>
+  <rect x="420" y="574" width="352" height="38" rx="10" fill="#22283a" stroke="#f5b041" stroke-opacity=".6"/>
+  <text x="596" y="598" text-anchor="middle" fill="#f3d39a" font-size="12.5">审计：每次调用 · 看过的数据 · 人的采纳或推翻</text>
+</svg>
