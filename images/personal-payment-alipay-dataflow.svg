@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1280" viewBox="0 0 900 1280">
+<style>:root{--bg:#0f172a;--bg-grid:#1e293b;--mask:#0f172a;--text:white;--text-muted:#94a3b8;--arrow:#64748b;--color-primary-fill:rgba(8,51,68,0.4);--color-primary-stroke:#22d3ee;--color-secondary-fill:rgba(6,78,59,0.4);--color-secondary-stroke:#34d399;--color-tertiary-fill:rgba(76,29,149,0.4);--color-tertiary-stroke:#a78bfa;--color-accent-fill:rgba(120,53,15,0.3);--color-accent-stroke:#fbbf24;--color-alert-fill:rgba(136,19,55,0.4);--color-alert-stroke:#fb7185;--color-neutral-fill:rgba(30,41,59,0.5);--color-neutral-stroke:#94a3b8;--color-highlight-fill:rgba(59,130,246,0.3);--color-highlight-stroke:#60a5fa}text{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="var(--arrow)"/></marker>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="var(--bg-grid)" stroke-width="0.5"/></pattern></defs>
+<rect width="100%" height="100%" fill="var(--bg)"/>
+<rect width="100%" height="100%" fill="url(#grid)"/>
+<path d="M 235,292 L 235,336" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 235,428 L 235,472" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 235,564 L 235,608" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 235,700 L 235,744" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 235,836 L 235,880" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 235,972 L 235,1016" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 665,292 L 665,336" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 665,428 L 665,472" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 665,564 L 665,608" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 665,700 L 665,744" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 665,836 L 665,880" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 665,972 L 665,1016" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="200" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="200" width="390" height="92" rx="12" fill="var(--color-primary-fill)" stroke="var(--color-primary-stroke)" stroke-width="2"/>
+<rect x="40" y="336" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="336" width="390" height="92" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="40" y="472" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="472" width="390" height="92" rx="12" fill="var(--color-accent-fill)" stroke="var(--color-accent-stroke)" stroke-width="2"/>
+<rect x="40" y="608" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="608" width="390" height="92" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="40" y="744" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="744" width="390" height="92" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="40" y="880" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="880" width="390" height="92" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="40" y="1016" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="40" y="1016" width="390" height="92" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="470" y="200" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="200" width="390" height="92" rx="12" fill="var(--color-primary-fill)" stroke="var(--color-primary-stroke)" stroke-width="2"/>
+<rect x="470" y="336" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="336" width="390" height="92" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="470" y="472" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="472" width="390" height="92" rx="12" fill="var(--color-accent-fill)" stroke="var(--color-accent-stroke)" stroke-width="2"/>
+<rect x="470" y="608" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="608" width="390" height="92" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="470" y="744" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="744" width="390" height="92" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="470" y="880" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="880" width="390" height="92" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="470" y="1016" width="390" height="92" rx="12" fill="var(--mask)"/>
+<rect x="470" y="1016" width="390" height="92" rx="12" fill="var(--color-primary-fill)" stroke="var(--color-primary-stroke)" stroke-width="2"/>
+<text x="235" y="158" font-size="27" fill="var(--color-accent-stroke)" font-weight="700" text-anchor="middle">套件直连</text>
+<text x="665" y="158" font-size="27" fill="var(--color-secondary-stroke)" font-weight="700" text-anchor="middle">基础收款</text>
+<text x="235.0" y="237" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">01  确定账号与可售档位</text>
+<text x="235.0" y="267" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">业务用户 ID + 商品 + sku_id</text>
+<text x="235.0" y="373" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">02  获取托管购买入口</text>
+<text x="235.0" y="403" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">purchase.create → 链接 / 二维码</text>
+<text x="235.0" y="509" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">03  用户在支付宝付款</text>
+<text x="235.0" y="539" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">托管购买页承接确认与支付</text>
+<text x="235.0" y="645" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">04  套件发放购买额度</text>
+<text x="235.0" y="675" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">支付结果 → 套件权益记录</text>
+<text x="235.0" y="781" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">05  服务端刷新剩余次数</text>
+<text x="235.0" y="811" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">quota.query → remaining</text>
+<text x="235.0" y="917" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">06  使用时正式核销</text>
+<text x="235.0" y="947" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">quota.verify → 消费状态</text>
+<text x="235.0" y="1053" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">07  记录服务交付结果</text>
+<text x="235.0" y="1083" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">业务任务 ↔ 原消费请求号</text>
+<text x="665.0" y="237" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">01  服务端读取套餐</text>
+<text x="665.0" y="267" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">价格 1200 分 + 权益 30 次</text>
+<text x="665.0" y="373" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">02  保存待支付订单</text>
+<text x="665.0" y="403" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">订单号 + 用户 + 商品快照</text>
+<text x="665.0" y="509" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">03  页面下单并付款</text>
+<text x="665.0" y="539" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">page.pay → 支付宝收银台</text>
+<text x="665.0" y="645" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">04  服务端确认支付</text>
+<text x="665.0" y="675" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">异步通知 / trade.query</text>
+<text x="665.0" y="781" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">05  验签并核对原订单</text>
+<text x="665.0" y="811" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">应用 · 收款方 · 金额 · 状态</text>
+<text x="665.0" y="917" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">06  业务事务发放权益</text>
+<text x="665.0" y="947" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">支付记录 + 流水 + 30 次余额</text>
+<text x="665.0" y="1053" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">07  页面查询本地订单</text>
+<text x="665.0" y="1083" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">已发放 → 用户获得可用次数</text>
+<text x="40" y="1186" font-size="20" fill="var(--text-muted)" font-weight="400" text-anchor="start">套件消费结果未知：按原请求号查询恢复，不换号重复扣次。</text>
+<text x="40" y="1220" font-size="20" fill="var(--text-muted)" font-weight="400" text-anchor="start">基础收款通知与补单：共用同一事务发放逻辑，同笔支付只发一次。</text>
+<text x="40" y="1254" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="start">预期数据流程 · 次数包示例 · 页面返回本身不授予权益</text>
+<text x="40" y="66" font-size="32" fill="var(--text)" font-weight="700" text-anchor="start">支付宝：购买与权益数据怎样流转</text>
+<text x="40" y="105" font-size="19" fill="var(--text-muted)" font-weight="400" text-anchor="start">同一笔购买，因接入模式不同，权益写入的位置也不同</text>
+</svg>
