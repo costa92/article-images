@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1040" viewBox="0 0 900 1040">
+<style>:root{--bg:#0f172a;--bg-grid:#1e293b;--mask:#0f172a;--text:white;--text-muted:#94a3b8;--arrow:#64748b;--color-primary-fill:rgba(8,51,68,0.4);--color-primary-stroke:#22d3ee;--color-secondary-fill:rgba(6,78,59,0.4);--color-secondary-stroke:#34d399;--color-tertiary-fill:rgba(76,29,149,0.4);--color-tertiary-stroke:#a78bfa;--color-accent-fill:rgba(120,53,15,0.3);--color-accent-stroke:#fbbf24;--color-alert-fill:rgba(136,19,55,0.4);--color-alert-stroke:#fb7185;--color-neutral-fill:rgba(30,41,59,0.5);--color-neutral-stroke:#94a3b8;--color-highlight-fill:rgba(59,130,246,0.3);--color-highlight-stroke:#60a5fa}text{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="var(--arrow)"/></marker>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="var(--bg-grid)" stroke-width="0.5"/></pattern></defs>
+<rect width="100%" height="100%" fill="var(--bg)"/>
+<rect width="100%" height="100%" fill="url(#grid)"/>
+<path d="M 240,265 L 240,410" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 120,410 L 120,265" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<path d="M 665,265 L 665,410" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 420,450 L 490,450" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 490,515 L 420,515" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<path d="M 180,560 L 180,750" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 490,825 L 455,825 L 455,650 L 350,650 L 350,560" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="90" y="170" width="720" height="95" rx="12" fill="var(--mask)"/>
+<rect x="90" y="170" width="720" height="95" rx="12" fill="var(--color-primary-fill)" stroke="var(--color-primary-stroke)" stroke-width="2"/>
+<rect x="60" y="410" width="360" height="150" rx="12" fill="var(--mask)"/>
+<rect x="60" y="410" width="360" height="150" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="490" y="410" width="350" height="150" rx="12" fill="var(--mask)"/>
+<rect x="490" y="410" width="350" height="150" rx="12" fill="var(--color-accent-fill)" stroke="var(--color-accent-stroke)" stroke-width="2"/>
+<rect x="60" y="750" width="360" height="150" rx="12" fill="var(--mask)"/>
+<rect x="60" y="750" width="360" height="150" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="490" y="750" width="350" height="150" rx="12" fill="var(--mask)"/>
+<rect x="490" y="750" width="350" height="150" rx="12" fill="var(--color-neutral-fill)" stroke="var(--color-neutral-stroke)" stroke-width="2"/>
+<text x="450.0" y="207" font-size="27" fill="var(--text)" font-weight="700" text-anchor="middle">微信小程序</text>
+<text x="450.0" y="237" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">登录 · 请求下单 · requestVirtualPayment · 查询自己的订单</text>
+<text x="240.0" y="447" font-size="26" fill="var(--text)" font-weight="700" text-anchor="middle">业务服务 / 云函数</text>
+<text x="240.0" y="477" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">生成 payData · 推送验签</text>
+<text x="240.0" y="504" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">查单恢复 · 幂等发货</text>
+<text x="665.0" y="447" font-size="26" fill="var(--text)" font-weight="700" text-anchor="middle">微信虚拟支付平台</text>
+<text x="665.0" y="477" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">收银台 · 支付订单</text>
+<text x="665.0" y="504" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">发货推送 · 退款事件</text>
+<text x="302" y="342" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">下单 / 查询</text>
+<text x="164" y="376" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">payData</text>
+<text x="737" y="342" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">用户确认付款</text>
+<text x="455" y="434" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">查单</text>
+<text x="455" y="498" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">推送</text>
+<text x="240.0" y="787" font-size="26" fill="var(--text)" font-weight="700" text-anchor="middle">业务数据库</text>
+<text x="240.0" y="817" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">订单 · 权益快照 · 发货流水</text>
+<text x="240.0" y="844" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">wx_order_id 去重 · 次数余额</text>
+<text x="665.0" y="787" font-size="26" fill="var(--text)" font-weight="700" text-anchor="middle">服务端凭证与会话</text>
+<text x="665.0" y="817" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">现网 AppKey / session_key</text>
+<text x="665.0" y="844" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">后台配置 / 登录换取</text>
+<text x="239" y="665" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">本地事务</text>
+<text x="521" y="630" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="middle">仅服务端使用</text>
+<text x="40" y="957" font-size="20" fill="var(--text-muted)" font-weight="400" text-anchor="start">平台不直接修改业务余额；推送和查单都进入同一套发货逻辑。</text>
+<text x="40" y="991" font-size="19" fill="var(--text-muted)" font-weight="400" text-anchor="start">前端 success 仅触发刷新；关闭小程序后，服务端仍应继续确认与发货。</text>
+<text x="40" y="1025" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="start">概念架构 · 个人主体道具直购 · 不包含代币充值</text>
+<text x="40" y="66" font-size="32" fill="var(--text)" font-weight="700" text-anchor="start">微信个人虚拟支付：系统架构</text>
+<text x="40" y="105" font-size="19" fill="var(--text-muted)" font-weight="400" text-anchor="start">支付由微信确认，业务权益由自己的服务端持久化</text>
+</svg>
