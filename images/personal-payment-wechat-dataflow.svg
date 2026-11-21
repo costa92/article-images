@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1410" viewBox="0 0 900 1410">
+<style>:root{--bg:#0f172a;--bg-grid:#1e293b;--mask:#0f172a;--text:white;--text-muted:#94a3b8;--arrow:#64748b;--color-primary-fill:rgba(8,51,68,0.4);--color-primary-stroke:#22d3ee;--color-secondary-fill:rgba(6,78,59,0.4);--color-secondary-stroke:#34d399;--color-tertiary-fill:rgba(76,29,149,0.4);--color-tertiary-stroke:#a78bfa;--color-accent-fill:rgba(120,53,15,0.3);--color-accent-stroke:#fbbf24;--color-alert-fill:rgba(136,19,55,0.4);--color-alert-stroke:#fb7185;--color-neutral-fill:rgba(30,41,59,0.5);--color-neutral-stroke:#94a3b8;--color-highlight-fill:rgba(59,130,246,0.3);--color-highlight-stroke:#60a5fa}text{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="var(--arrow)"/></marker>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="var(--bg-grid)" stroke-width="0.5"/></pattern></defs>
+<rect width="100%" height="100%" fill="var(--bg)"/>
+<rect width="100%" height="100%" fill="url(#grid)"/>
+<path d="M 450,236 L 450,280" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 450,366 L 450,410" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 450,496 L 450,540" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 450,626 L 450,665 L 230,665 L 230,710" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 450,665 L 670,665 L 670,710" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<path d="M 230,806 L 230,855 L 450,855 L 450,910" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 670,806 L 670,855 L 450,855" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<path d="M 450,996 L 450,1040" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M 450,1126 L 450,1170" fill="none" stroke="var(--arrow)" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="150" y="150" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="150" width="600" height="86" rx="12" fill="var(--color-primary-fill)" stroke="var(--color-primary-stroke)" stroke-width="2"/>
+<rect x="150" y="280" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="280" width="600" height="86" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="150" y="410" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="410" width="600" height="86" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="150" y="540" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="540" width="600" height="86" rx="12" fill="var(--color-accent-fill)" stroke="var(--color-accent-stroke)" stroke-width="2"/>
+<rect x="50" y="710" width="360" height="96" rx="12" fill="var(--mask)"/>
+<rect x="50" y="710" width="360" height="96" rx="12" fill="var(--color-accent-fill)" stroke="var(--color-accent-stroke)" stroke-width="2"/>
+<rect x="490" y="710" width="360" height="96" rx="12" fill="var(--mask)"/>
+<rect x="490" y="710" width="360" height="96" rx="12" fill="var(--color-neutral-fill)" stroke="var(--color-neutral-stroke)" stroke-width="2"/>
+<rect x="150" y="910" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="910" width="600" height="86" rx="12" fill="var(--color-secondary-fill)" stroke="var(--color-secondary-stroke)" stroke-width="2"/>
+<rect x="150" y="1040" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="1040" width="600" height="86" rx="12" fill="var(--color-tertiary-fill)" stroke="var(--color-tertiary-stroke)" stroke-width="2"/>
+<rect x="150" y="1170" width="600" height="86" rx="12" fill="var(--mask)"/>
+<rect x="150" y="1170" width="600" height="86" rx="12" fill="var(--color-primary-fill)" stroke="var(--color-primary-stroke)" stroke-width="2"/>
+<text x="450.0" y="187" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">01  登录并建立用户会话</text>
+<text x="450.0" y="217" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">业务用户 ↔ openid / session_key</text>
+<text x="450.0" y="317" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">02  本地保存待支付订单</text>
+<text x="450.0" y="347" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">outTradeNo + 道具 / 价格 / 权益快照</text>
+<text x="450.0" y="447" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">03  服务端生成支付参数</text>
+<text x="450.0" y="477" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">signData + paySig + signature</text>
+<text x="450.0" y="577" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">04  微信客户端确认付款</text>
+<text x="450.0" y="607" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">wx.requestVirtualPayment(payData)</text>
+<text x="230.0" y="747" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">路径 A：平台发货推送</text>
+<text x="230.0" y="777" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">xpay_goods_deliver_notify</text>
+<text x="670.0" y="747" font-size="23" fill="var(--text)" font-weight="700" text-anchor="middle">路径 B：后台查单恢复</text>
+<text x="670.0" y="777" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">原单号 → query_order</text>
+<text x="450.0" y="947" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">05  校验可信结果与订单归属</text>
+<text x="450.0" y="977" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">原订单 + 用户 + 商品 / 数量 + 平台单号</text>
+<text x="450.0" y="1077" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">06  同一事务只发放一次</text>
+<text x="450.0" y="1107" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">wx_order_id 去重 + 发货流水 + 30 次余额</text>
+<text x="450.0" y="1207" font-size="25" fill="var(--text)" font-weight="700" text-anchor="middle">07  前端查询自己的订单</text>
+<text x="450.0" y="1237" font-size="18" fill="var(--text-muted)" font-weight="400" text-anchor="middle">服务端已发放 → 展示到账与可用次数</text>
+<text x="40" y="1322" font-size="20" fill="var(--text-muted)" font-weight="400" text-anchor="start">发货提交成功才应答；重复推送或查单结果不能重复增加次数。</text>
+<text x="40" y="1356" font-size="20" fill="var(--text-muted)" font-weight="400" text-anchor="start">付款后退出：平台推送与后台查单继续处理，用户回来再查询。</text>
+<text x="40" y="1390" font-size="17" fill="var(--text-muted)" font-weight="400" text-anchor="start">预期数据流程 · 个人主体道具直购 · 次数来自原订单快照</text>
+<text x="40" y="66" font-size="32" fill="var(--text)" font-weight="700" text-anchor="start">微信：从支付参数到 30 次权益</text>
+<text x="40" y="105" font-size="19" fill="var(--text-muted)" font-weight="400" text-anchor="start">同一业务单号贯穿下单、平台确认、业务发货与前端展示</text>
+</svg>
